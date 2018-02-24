@@ -1,0 +1,5 @@
+a=int(input())
+b=int(input())
+c=int(input())
+m=max(a,max(b,c))
+print(m)

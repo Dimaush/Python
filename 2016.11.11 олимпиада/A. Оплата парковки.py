@@ -1,0 +1,10 @@
+a, b, c = map (int, input ().split ())
+n = int (input ())
+sa = a * n
+sb = b * ((n + 6) // 7)
+sc = c * ((n + 27) // 28)
+sab = b * (n // 7) + a * (n - (n // 7) * 7)
+sac = c * (n // 28) + a * (n - (n // 28) * 28)
+sbc = c * (n // 28) + b * (n - (n // 28) * 28)
+sabc = c * (n // 28) + b * ((n - (n // 28) * 28) // 7) + a * (n - (n // 28) * 28 - ((n - (n // 28) * 28) // 7) * 7)
+print (min (sa, sb, sc, sab, sac, sbc, sabc))

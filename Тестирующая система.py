@@ -1,0 +1,6 @@
+D = int (input ())
+I = int (input ())
+if D == 1 and I == 1: print ('YES')
+elif D == 1 and I != 1: print ('NO')
+elif D != 1 and I == 1: print ('NO')
+else: print ('YES')

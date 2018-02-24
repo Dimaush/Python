@@ -1,0 +1,15 @@
+a=int(input())
+b=int()
+c=int()
+b+=a+1
+c+=a-1
+print('The next number for the number', end=' ')
+print(a, end=' ')
+print('is', end=' ')
+print(b, end='')
+print('.')
+print('The previous number for the number', end=' ')
+print(a, end=' ')
+print('is', end=' ')
+print(c, end='')
+print('.')
